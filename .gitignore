@@ -1,0 +1,30 @@
+# Build outputs
+build
+build/
+Debug/
+Release/
+
+# CubeMX scratch
+mx.scratch
+!.settings
+
+# Object files and binaries
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.d
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CubeMX backup
+*.ioc.bak
